@@ -9,11 +9,11 @@ class EmailParser
   def initialize(string)
   end
   
-  # def parse
-  #   array = string.split(/[,\s]/)
-  #   array.delete_if { |n| n.length < 2 }
-  #   array
-  # end
+  def parse
+    array = self.split(/[,\s]/)
+    array.delete_if { |n| n.length < 2 }
+    array
+  end
 
 
 end

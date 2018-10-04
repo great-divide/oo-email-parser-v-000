@@ -8,7 +8,7 @@ class EmailParser
   def initialize(string)
   end
   
-  def self.parse
+  def parse
     array = self.split(/[,\s]/)
     array.delete_if { |n| n.length < 2 }
     array

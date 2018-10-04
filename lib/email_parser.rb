@@ -5,8 +5,9 @@
 require 'pry'
 
 class EmailParser
+  attr_accessor :emails
 
-  def initialize(string)
+  def initialize(emails)
   end
   
   def parse

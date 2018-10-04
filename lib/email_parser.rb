@@ -18,4 +18,5 @@ class EmailParser
 
 
 end
+list = "john@john.com, bob@bob.com"
 binding.pry

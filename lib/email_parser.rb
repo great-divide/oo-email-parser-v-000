@@ -14,10 +14,10 @@ class EmailParser
   def parse
     array = @emails.split(/[,\s]/)
     array.delete_if { |n| n.length < 2 }
-    array
+    array.uniq
   end
 
 
 end
-list = "john@john.com, bob@bob.com"
-binding.pry
+# list = "john@john.com, bob@bob.com"
+# binding.pry
